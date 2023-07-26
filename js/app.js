@@ -18,5 +18,5 @@ const sr = ScrollReveal({
   reset: true
 })
 
-// sr.reveal('.banner-content, .newsletter, .blog-header', {delay: 200, origin: 'left'})
-// sr.reveal('.featured-left, .featured-right, .blog-card', {delay: 200, origin: 'top'})
+sr.reveal('.banner-content, .newsletter, .blog-header', {delay: 200, origin: 'left'})
+sr.reveal('.featured-left, .featured-right, .blog-card', {delay: 200, origin: 'top'})

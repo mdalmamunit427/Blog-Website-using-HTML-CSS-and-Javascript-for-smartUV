@@ -16,6 +16,7 @@
 body {
   font-family: "Neometric Alt", sans-serif;
   width: 100%;
+  margin: 0 auto;
   scroll-behavior: smooth;
   overflow-x: hidden;
 }
@@ -478,4 +479,56 @@ header.sticky {
         flex-wrap: wrap;
         margin-top: 48px;
       }
+}
+
+
+@media only screen and (min-width: 577px) and (max-width: 788px){
+  .navbar {
+    position: absolute;
+    top: 100%;
+    right: -100%;
+    width: 300px;
+    height: 88vh;
+    background: #E1DEFD;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px 30px;
+    transition: all 0.45s ease;
+  }
+
+  .navbar a {
+    display: block;
+  }
+  .navbar.open {
+    right: 0;
+  }
+
+#menu-icon {
+display: initial;
+font-size: 1.6rem;
+}
+#menu-icon2{
+display: none;
+}
+.banner-content{
+  width: 100%;
+}
+  .featured-post{
+    grid-template-columns: 1fr;
+  }
+  .footer-container{
+    flex-direction: column;
+  }
+  .SmartUV{
+    flex-wrap: wrap;
+  }
+  .blog-card{
+    width: 45%;
+  }
+
+  .web-pages{
+    margin-top: 48px;
+  }
+
 }
